@@ -77,6 +77,9 @@
     <!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
+    <?php
+    include 'components/portfolio.php';
+    ?>
     <!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
@@ -94,7 +97,11 @@
   </main>
   <!-- End #main -->
 
-  <!-- ======= Footer ======= --><!-- End Footer -->
+  <!-- ======= Footer ======= -->
+    <?php
+    include 'components/footer.php';
+    ?>
+    <!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
