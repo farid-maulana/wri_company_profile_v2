@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
   <meta charset="utf-8">
@@ -54,7 +54,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body class ="d-flex flex-column h-100">
 
   <!-- ======= Header ======= -->
   <?php
@@ -100,7 +100,7 @@
                 </select>
             </form>
         
-            <div id="txtHint"><b>Data akan ditampilkan di sini.</b></div>
+            <div id="txtHint"><b>Pilih Data Untuk Ditampilkan</b></div>
       </div>
     </section>
 
