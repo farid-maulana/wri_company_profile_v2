@@ -64,8 +64,11 @@
     ?>
     <!-- End About Us Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <!-- End Why Us Section -->
+    <!-- ======= Miniclass Section ======= -->
+    <?php
+    include 'components/miniclass.php';
+    ?>
+    <!-- End Miniclass Section -->
 
     <!-- ======= Skills Section ======= -->
     <!-- End Skills Section -->
