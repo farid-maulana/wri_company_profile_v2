@@ -52,10 +52,16 @@
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <!-- End Cliens Section -->
+    <!-- ======= Activities Section ======= -->
+    <?php
+    include 'components/activities.php';
+    ?>
+    <!-- End Activities Section -->
 
     <!-- ======= About Us Section ======= -->
+    <?php
+    include 'components/about-us.php';
+    ?>
     <!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
