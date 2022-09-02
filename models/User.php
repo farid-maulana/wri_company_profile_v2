@@ -3,7 +3,7 @@ function __connection()
 {
     $servername = "localhost";
     $username = "root";
-    $password = "password";
+    $password = "";
     $database = "db_polinema";
    
     return new mysqli($servername, $username, $password, $database);
