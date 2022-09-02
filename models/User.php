@@ -19,7 +19,7 @@ function login($username, $password)
         session_start();
         $_SESSION['username'] = $username;
         $_SESSION['status'] = 'login';
-        header('location: ../dashboard.php');
+        header('location: ../controllers/miniclassController.php');
     } else {
         header('location: ../login.php');
     }
