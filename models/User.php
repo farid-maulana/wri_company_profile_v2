@@ -9,23 +9,21 @@ function __connection()
     return new mysqli($servername, $username, $password, $database);
 }
 
-function login()
+function login($username, $password)
 {
     $connect = __connection();
-    $username = $_POST['username'];
-    $password = md5($_POST['password']);
     $query = "SELECT * FROM user WHERE username='$username' AND password='$password'";
     $results = $connect->query($query);
-    $fetchResult = mysqli_fetch_assoc($results);
-    $rowCount = mysqli_num_rows($fetchResult);
-
-    if ($rowCount > 0) {
+    
+    if ($rowCount = mysqli_num_rows($results) > 0) {
         session_start();
         $_SESSION['username'] = $username;
         $_SESSION['status'] = 'login';
+        header('location: ../dashboard.php');
+    } else {
+        header('location: ../login.php');
     }
 
-    return $result;
 }
 
 function logout()

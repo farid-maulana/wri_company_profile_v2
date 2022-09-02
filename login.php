@@ -51,7 +51,7 @@
 
                 <div class="row justify-content-md-center">
                     <div class="col-lg-4 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="controllers/LoginController.php" method="post" class="php-email-form">
                             <div class="form-group">
                                 <label for="username">Username</label>
                                 <input type="text" class="form-control" name="username" id="username" required>
@@ -60,7 +60,9 @@
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" name="password" id="password" required>
                             </div>
-                            <div class="text-center"><button type="submit">Login</button></div>
+                            <div class="text-center">
+                                <button type="submit">Login</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -84,7 +86,7 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
