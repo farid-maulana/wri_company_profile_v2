@@ -39,9 +39,15 @@
 <body>
 
   <!-- ======= Header ======= -->
+  <?php
+    include 'components/header.php';
+  ?>
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+  <?php
+    include 'components/hero.php';
+  ?>
   <!-- End Hero -->
 
   <main id="main">
